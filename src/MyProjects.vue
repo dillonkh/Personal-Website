@@ -71,6 +71,8 @@
                 This is it! You are currently looking at my personal website, congrats! <br>
                 I had a website in the past, but it honestly was terrible... <br>
                 After my internship at SimpleNexus, I decided it was time to create a new website. This website is written in Vue.js and hosted on AWS S3 as a static website. Currently this website has no backend. My next step is to add some aspect of the website that would require a backend and emplement it with AWS Lambdas.
+                <br>
+                Here is a link to the GitHub repo if it interests you: <a href="https://github.com/dillonkh/Personal-Website">Personal Website</a>
               </div>
             </v-card-text>
           </v-card>
