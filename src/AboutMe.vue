@@ -108,7 +108,7 @@
               </p>
 
               <div class="mb-5 text--primary">
-                I married Jade Accountius in 2017 and we have been living in the Provo, UT area ever since. <br>
+                I married Jade Accountius in 2016 and we have been living in the Provo, UT area ever since. <br>
                 We have two litter fur babies: We got Tuna as a kitten in 2018 and Tillie just a few weeks ago!
               </div>
               <img class="ma-1" width="225px" height="225px" src="./assets/static/tuna.jpg"/>
