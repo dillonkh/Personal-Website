@@ -24,9 +24,9 @@
       <img
         src='./assets/static/DH-logo-light.png'
         alt="DH"
-        height="125px"
-        width="125px"
-        class="mr-0 mt-2"
+        height="55px"
+        width="55px"
+        class="my-5 ml-5 mr-0"
       >
       
 

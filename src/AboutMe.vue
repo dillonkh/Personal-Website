@@ -88,7 +88,7 @@
 
               <div class="text--primary">
                 I grew up outside the town of Farmington, NM. After graduating high school from Farmington High, I lived in San Pedro Sula Honduras for two years serving as a proselyting missionary for the Church of Jesus Christ of Latter-day Saints. <br>
-                Upon Ariving Home, I shortly married my high school sweetheart, Jade Accountius. Together we moved to Provo, UT to go to school and Brigham Young University.
+                Upon Ariving Home, I shortly married my high school sweetheart, Jade. Together we moved to Provo, UT to go to school and Brigham Young University.
                 Initially, I thought I wanted to persue a career in medicine. However, I quickly discovered that I did not have an aptitude for science. <br>
                 I decided to take a few online career tests to see what other options were out there. I was a little suprised to see that jobs in technology were always at the top of the list. I had never considered a job in technology, mostly because growing up in Farmington, I didn't know anyone who worked in the technology industry.
                 I took a free python course through Code Academy and instantly fell in love. I quickly changed my major from Biology to Computer Science and have not had a second thought since.<br>
@@ -108,8 +108,8 @@
               </p>
 
               <div class="mb-5 text--primary">
-                I married Jade Accountius in 2016 and we have been living in the Provo, UT area ever since. <br>
-                We have two litter fur babies: We got Tuna as a kitten in 2018 and Tillie just a few weeks ago!
+                I married Jade in 2016 and we have been living in the Provo, UT area ever since. <br>
+                We have two litter fur babies: We got Tuna as a kitten in 2017 and Tillie just a few weeks ago!
               </div>
               <img class="ma-1" width="225px" height="225px" src="./assets/static/tuna.jpg"/>
               <img class="ma-1" width="225px" height="225px" src="./assets/static/tillie.jpg"/>
