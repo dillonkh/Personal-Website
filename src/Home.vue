@@ -156,6 +156,17 @@
               
             </v-row>
           </v-card>
+          <v-card
+            class="mx-auto mb-10"
+            @click="$emit('card-clicked', 'MyGames')"
+          >
+          <v-list-item three-line>
+            <v-list-item-content>
+              <v-list-item-title class="headline mb-1">Games</v-list-item-title>
+              <v-list-item-subtitle>See some web games I'm Working On</v-list-item-subtitle>
+            </v-list-item-content>
+          </v-list-item>
+          </v-card>
       </v-row>
     </v-main>
   </v-app>

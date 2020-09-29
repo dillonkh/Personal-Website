@@ -16,9 +16,6 @@
           mdi-arrow-left
         </v-icon>
       </v-hover>
-      <div class="d-flex align-center">
-      </div>
-
       <v-spacer></v-spacer>
       <div style="color: #3352a9;">Dillon Harris</div>
       <img
@@ -28,17 +25,6 @@
         width="55px"
         class="my-5 ml-5 mr-0"
       >
-      
-
-
-      <!-- <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn> -->
     </v-app-bar>
     <component
       v-bind:is="currentComponent"
@@ -53,6 +39,7 @@ import MyEducation from './MyEducation'
 import MyProjects from './MyProjects'
 import WorkExperience from './WorkExperience'
 import Home from './Home'
+import MyGames from './MyGames'
 
 export default {
   name: 'App',
@@ -62,6 +49,7 @@ export default {
     MyEducation,
     MyProjects,
     WorkExperience,
+    MyGames,
     Home
   },
   data () {
@@ -73,6 +61,9 @@ export default {
   methods: {
     setCurrentComponent (comp) {
       this.theCurrentComponent = comp
+    },
+    initializeGame() {
+      this.initialize = true;
     }
   },
   computed: {
