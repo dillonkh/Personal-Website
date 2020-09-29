@@ -9,7 +9,9 @@
     "deploy": "aws --region us-west-2 --profile personal-website-dev s3 sync ./dist s3://dillonkharris-personal-website --delete"
   },
   "dependencies": {
+    "@ion-phaser/core": "^1.2.3",
     "core-js": "^3.6.5",
+    "phaser": "^3.24.1",
     "vue": "^2.6.11",
     "vuetify": "^2.2.11"
   },
