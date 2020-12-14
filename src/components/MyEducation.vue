@@ -1,51 +1,50 @@
 <template>
-  <v-app>
-    <v-main class="ma-auto">
-      <v-row>
-        <v-col>
-          <div v-if="currentSlide > 0" class="mt-10">
-            <v-hover v-slot:default="{}">
-              <v-icon light @click="previousSlide()">
-                mdi-arrow-left
-              </v-icon>
-            </v-hover>
-          </div>
-        </v-col>
-        <v-col>
-          <v-card v-if="currentSlide === 0" width="500px">
-            <v-card-text class="my-5">
-              <p class="display-1 text--primary">
-                Brigham Young University
-              </p>
-
-              <div class="text--primary">
-                I am a Computer Science undergraduate graduating
-                <strong>April 2021</strong> <br />
-                <br />
-                My cumulative GPA is 3.6 <br />
-              </div>
-            </v-card-text>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-main>
-  </v-app>
+  <v-main class="ma-10">
+    <v-row>
+      <div>
+        <p class="display-1">
+          Brigham Young University
+        </p>
+      </div>
+    </v-row>
+    <v-row>
+      <div>
+        <span
+          >I am a Computer Science undergraduate graduating
+          <strong>April 2021</strong></span
+        >
+      </div>
+    </v-row>
+    <v-row>
+      <div><span>My cumulative GPA is 3.6</span><br /></div>
+    </v-row>
+    <v-row class="mb-10 mt-5">
+      <div>
+        <v-btn
+          outlined
+          color="rgb(109, 167, 113)"
+          @click="
+            goToLink(
+              'https://dillonkharris-personal-website.s3-us-west-2.amazonaws.com/Transcript2020.pdf'
+            )
+          "
+        >
+          Transcript
+        </v-btn>
+      </div>
+    </v-row>
+  </v-main>
 </template>
 
 <script>
 export default {
   name: "MyEducation",
   data() {
-    return {
-      currentSlide: 0,
-    };
+    return {};
   },
   methods: {
-    nextSlide() {
-      this.currentSlide = this.currentSlide + 1;
-    },
-    previousSlide() {
-      this.currentSlide = this.currentSlide - 1;
+    goToLink(link) {
+      window.open(link, "_blank");
     },
   },
 };
