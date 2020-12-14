@@ -34,6 +34,10 @@ const routes = [
     name: "Work Experience",
     component: () => import("./../components/WorkExperience.vue"),
   },
+  {
+    path: "*",
+    component: () => import("./../components/NotFound.vue"),
+  },
 ];
 
 const router = new VueRouter({
