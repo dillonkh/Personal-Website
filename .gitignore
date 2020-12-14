@@ -3,7 +3,6 @@ node_modules
 /dist
 prettierrc.js
 
-
 # local env files
 .env.local
 .env.*.local
@@ -22,3 +21,4 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+prettierrc.js

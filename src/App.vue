@@ -1,86 +1,47 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="white"
-      dark
-    >
-      <v-hover
-        v-if="currentComponent !== 'Home'"
-        v-slot:default="{  }"
-      >
-        <v-icon
-          style="color: #3352a9"
-          @click="setCurrentComponent('Home')"
-        >
-          mdi-arrow-left
-        </v-icon>
-      </v-hover>
-      <div class="d-flex align-center">
-      </div>
-
-      <v-spacer></v-spacer>
-      <div style="color: #3352a9;">Dillon Harris</div>
-      <img
-        src='./assets/static/DH-logo-light.png'
-        alt="DH"
-        height="55px"
-        width="55px"
-        class="my-5 ml-5 mr-0"
-      >
-      
-
-
-      <!-- <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn> -->
-    </v-app-bar>
-    <component
-      v-bind:is="currentComponent"
-      @card-clicked="setCurrentComponent($event)"
-    />
+    <background class="my-background" />
+    <v-layout fill-height fluid>
+      <v-row class="mt-10" justify="center">
+        <v-col style="max-width: 800px; width: 100%;">
+          <v-card class="ma-3">
+            <Navigation :items="items" />
+            <router-view style="" />
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-layout>
   </v-app>
 </template>
 
 <script>
-import AboutMe from './AboutMe'
-import MyEducation from './MyEducation'
-import MyProjects from './MyProjects'
-import WorkExperience from './WorkExperience'
-import Home from './Home'
-
+import Navigation from "./components/Navigation";
 export default {
-  name: 'App',
-
+  name: "App",
   components: {
-    AboutMe,
-    MyEducation,
-    MyProjects,
-    WorkExperience,
-    Home
+    Navigation,
   },
-  data () {
+  data() {
     return {
-      backButtonHover: false,
-      theCurrentComponent: 'Home'
-    }
-  },
-  methods: {
-    setCurrentComponent (comp) {
-      this.theCurrentComponent = comp
-    }
-  },
-  computed: {
-    currentComponent () {
-      return this.theCurrentComponent
-    }
+      items: [
+        { name: "Home", uri: "/", selected: false },
+        { name: "About Me", uri: "/about-me", selected: false },
+        { name: "Experience", uri: "/work-experience", selected: false },
+        { name: "Projects", uri: "/my-projects", selected: false },
+        { name: "Education", uri: "/my-education", selected: false },
+      ],
+    };
   },
 };
 </script>
+
 <style scoped>
+.my-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background-color: rgb(109, 167, 113);
+}
 </style>
