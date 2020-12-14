@@ -139,15 +139,7 @@
 
 <script>
 export default {
-  name: "App",
-
-  components: {
-    // HelloWorld,
-  },
-
-  // data: () => ({
-  //   //
-  // }),
+  name: "AboutMe",
   data() {
     return {
       currentSlide: 0,

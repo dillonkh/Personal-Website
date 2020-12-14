@@ -155,12 +155,8 @@
 
 <script>
 export default {
-  name: "App",
+  name: "Home",
 
-  components: {},
-  data() {
-    return {};
-  },
   methods: {
     goToLink(link) {
       window.open(link, "_blank");
@@ -173,7 +169,6 @@ export default {
       }
     },
   },
-  computed: {},
 };
 </script>
 
