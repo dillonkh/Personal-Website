@@ -1,161 +1,82 @@
 <template>
-  <v-app>
-    <v-main style="max-width: 800px; margin-top: 100px;" class="mx-auto">
-      <v-row no-gutters>
-        <v-col no-gutters>
-          <router-link class="my-card" to="/about-me">
-            <v-card class="ma-5">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <v-list-item-title class="headline mb-1"
-                    >Get to Know Me</v-list-item-title
-                  >
-                  <v-list-item-subtitle
-                    >Find out information about me</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-
-                <v-avatar height="75px" width="75px" class="my-5">
-                  <img src="./../assets/static/me.png" alt="Me" />
-                </v-avatar>
-              </v-list-item>
-            </v-card>
-          </router-link>
-
-          <router-link class="my-card" to="/work-experience">
-            <v-card class="ma-5">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <v-list-item-title class="headline mb-1"
-                    >Work Experience</v-list-item-title
-                  >
-                  <v-list-item-subtitle
-                    >See my work experience</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-
-                <v-avatar height="75px" width="75px" class="my-5">
-                  <img src="./../assets/static/work.jpg" alt="Work" />
-                </v-avatar>
-              </v-list-item>
-            </v-card>
-          </router-link>
-        </v-col>
-        <v-col no-gutters>
-          <router-link class="my-card" to="/my-education">
-            <v-card class="ma-5">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <v-list-item-title class="headline mb-1"
-                    >My Education</v-list-item-title
-                  >
-                  <v-list-item-subtitle
-                    >See my educational history</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-
-                <v-avatar height="75px" width="75px" class="my-5">
-                  <img src="./../assets/static/Cougar.jpg" alt="Education" />
-                </v-avatar>
-              </v-list-item>
-            </v-card>
-          </router-link>
-          <router-link class="my-card" to="/my-projects">
-            <v-card class="ma-5">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <v-list-item-title class="headline mb-1"
-                    >My Projects</v-list-item-title
-                  >
-                  <v-list-item-subtitle
-                    >See projects I've worked on</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-
-                <v-avatar height="75px" width="75px" class="my-5">
-                  <img src="./../assets/static/projects.png" alt="Projects" />
-                </v-avatar>
-              </v-list-item>
-            </v-card>
-          </router-link>
+  <v-row class="ma-8">
+    <v-col class="my-8" cols="8">
+      <v-row>
+        <v-col>
+          <div>
+            <span class="greeting"
+              >Hi, I'm <strong class="name">Dillon Harris</strong></span
+            >
+          </div>
+          <div>
+            <span class="my-title">Full Stack Web Developer</span>
+          </div>
+          <div>
+            <span class="sub-title">
+              Student and Freelance Web Developer
+            </span>
+          </div>
+          <div class="mt-8">
+            <v-row>
+              <v-col cols="5">
+                <v-btn
+                  outlined
+                  color="rgb(109, 167, 113)"
+                  @click="
+                    goToLink(
+                      'https://dillonkharris-personal-website.s3-us-west-2.amazonaws.com/Resume2020.pdf'
+                    )
+                  "
+                >
+                  Resume
+                </v-btn>
+              </v-col>
+            </v-row>
+          </div>
         </v-col>
       </v-row>
-      <v-row no-gutters>
-        <v-card class="mx-auto mb-10">
-          <v-list-item three-line>
-            <v-list-item-content>
-              <v-list-item-title class="headline mb-1"
-                >Social Media</v-list-item-title
-              >
-              <v-list-item-subtitle>Lets get connected!</v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-          <v-row
-            class="ma-1"
-            @mouseover="hovering(true)"
-            @mouseleave="hovering(false)"
-            @click="goToLink('https://github.com/dillonkh')"
-          >
-            <p style="width: 80px;" class="my-auto mx-2">GitHub</p>
-            <div width="237.845px" class="ml-0">
-              <img
-                src="./../assets/static/github.png"
-                alt="GitHub"
-                height="50px"
-                width="150.375px"
-                class="ma-1"
-              />
-            </div>
-          </v-row>
-          <v-row
-            class="ma-1"
-            @mouseover="hovering(true)"
-            @mouseleave="hovering(false)"
+    </v-col>
+    <v-col>
+      <v-row>
+        <img class="my-image" src="./../assets/static/me.png" />
+      </v-row>
+      <v-row>
+        <v-col>
+          <img
+            class="icon"
+            src="./../assets/static/LI-In-Bug.png"
             @click="
               goToLink('https://www.linkedin.com/in/dillon-harris-489237159/')
             "
-          >
-            <p style="width: 80px;" class="my-auto mx-2">LinkedIn</p>
-            <div width="237.845px" class="ml-0">
-              <img
-                src="./../assets/static/linkedin.png"
-                alt="LinkedIn"
-                height="50px"
-                width="205.298px"
-                class="ma-1"
-              />
-            </div>
-          </v-row>
-          <v-row
-            class="ma-1"
-            @mouseover="hovering(true)"
-            @mouseleave="hovering(false)"
+          />
+        </v-col>
+        <v-col>
+          <img
+            class="icon"
+            src="./../assets/static/f_logo_RGB-Blue_250.png"
             @click="
               goToLink(
                 'https://www.facebook.com/profile.php?id=100013068433133'
               )
             "
-          >
-            <p style="width: 80px;" class="my-auto mx-2">FaceBook</p>
-            <div width="237.845px" class="ml-0">
-              <img
-                src="./../assets/static/facebook.png"
-                alt="FaceBook"
-                height="50px"
-                width="237.845px"
-                class="ma-1"
-              />
-            </div>
-          </v-row>
-        </v-card>
+          />
+        </v-col>
+        <v-col>
+          <img
+            class="icon"
+            src="./../assets/static/GitHub-Mark-64px.png"
+            @click="goToLink('https://github.com/dillonkh')"
+          />
+        </v-col>
       </v-row>
-    </v-main>
-  </v-app>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
 export default {
   name: "Home",
+  components: {},
 
   methods: {
     goToLink(link) {
@@ -173,7 +94,27 @@ export default {
 </script>
 
 <style scoped>
-.my-card {
-  text-decoration: none;
+.greeting {
+  font-size: 1.2em;
+}
+.name {
+  color: rgb(87, 141, 91);
+}
+.my-title {
+  font-size: 2em;
+}
+.sub-title {
+  font-size: 0.9em;
+  color: gray;
+}
+.my-image {
+  max-width: 100%;
+  border-radius: 5%;
+}
+.icon {
+  max-width: 3em;
+}
+.icon:hover {
+  cursor: pointer;
 }
 </style>
