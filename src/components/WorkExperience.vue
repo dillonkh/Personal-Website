@@ -33,6 +33,9 @@
           Showed independence and adaptability working from home with little
           supervision
         </li>
+        <li>
+          Tech Stack: Vue.js, Graphql, Ruby on Rails, Postgres
+        </li>
       </ul>
       <br />
       I started in January 2020 working part time for SimpleNexus. When school
@@ -78,7 +81,7 @@
       <br />
       I will always be grateful to Hughes for my first full time coding job and
       my first internship. <br />
-      For this internship I got to my a small web app from scratch by myself
+      For this internship I got to build a small web app from scratch by myself
       (with the guidance of a great mentor and manager) <br />
       I chose to make this app using Flask Web Framework for the backend and
       Jquery for the front end.

@@ -2,6 +2,47 @@
   <v-row class="ma-10">
     <v-col>
       <p class="display-1 text--primary">
+        Unite3D
+      </p>
+
+      <div class="mb-5 text--primary">
+        Fall Semester, 2020, class prject for CS428. This project was intended
+        to give us experience working as a team and managing a larger software
+        project. My work on the project included:
+        <ul>
+          <li>Helping design the Data Base</li>
+          <li>Helping create a GANTT chart</li>
+          <li>Leading weekly team meetings</li>
+          <li>Submitting weekly status reports</li>
+          <li>Helping design the front end</li>
+          <li>Designing the logo</li>
+          <li>Testing and debugging API endpoints</li>
+          <li>Participating in code reviews</li>
+          <li>Emplementing the front end</li>
+        </ul>
+        <br />
+        We are currently continuing work on this project in hopes of creating a
+        startup
+        <br />
+        Here is a link to the GitHub repo if it interests you:
+        <br />
+        <a href="https://github.com/dillonkh/Unite3D-WebApp">
+          Front End
+        </a>
+        <br />
+        <a href="https://github.com/dillonkh/Unite3D_API">
+          Back End
+        </a>
+        <br />
+        <!-- <span style="font-size: 3em;"> 🚧 👷‍♀️ 🚧 👷‍♂️ 🚧 </span> -->
+        <br />
+        <span
+          ><span style="font-size: 2em;">🚧 👷‍♀️</span> Video Demo coming soon!
+          <span style="font-size: 2em;">👷‍♂️ 🚧</span>
+        </span>
+      </div>
+
+      <p class="display-1 text--primary">
         Personal Website
       </p>
 

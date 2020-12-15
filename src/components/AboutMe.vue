@@ -8,12 +8,13 @@
       </v-row>
       <v-row>
         <div class="text--primary">
-          My name is Dillon Harris. <br />
-          I will be graduating from BYU in April of 2021. <br />
-          I am looking for full time employment any time after graduation and
-          part time employment any time before then. <br />
-          I have experience in full stack web development and some experience in
-          Android development
+          I am looking for full time employment after my graduation from BYU in
+          April 2021. <br />
+          I would be a good fit for any agile, web development team. <br />
+          I have experience building new websites and maintaining existing
+          websites. <br />
+          I am just as comfortable on the front end using something like Vue or
+          React as I am on the back end. <br />
         </div>
       </v-row>
 
@@ -53,8 +54,8 @@
         <div class="mb-5 text--primary">
           I married Jade in 2016 and we have been living in the Provo, UT area
           ever since. <br />
-          We have two litter fur babies: We got Tuna as a kitten in 2017 and
-          Tillie just a few weeks ago!
+          We have two little critters who live with us: We got Tuna as a kitten
+          in 2017 and Tillie in September 2020.
         </div>
       </v-row>
 
@@ -67,7 +68,7 @@
           I've always love the outdoors, and New Mexico is the perfect place for
           people like me! <br />
           I grew up riding dirt bikes and mountain bikes. As a teen, I also
-          picked snowboarding, a great way to spend the winter months!
+          picked up snowboarding, a great way to spend the winter months!
           <br />
           As a student here at BYU (without a dirt bike or mountain bike) I've
           started running a lot more. I also enjoy drawing, painting, and
@@ -77,10 +78,16 @@
     </v-col>
     <v-col>
       <v-row class="mx-1 mt-10">
-        <img class="my-image" src="./../assets/static/tillie.jpg" />
+        <img class="my-image" src="./../assets/static/me_and_jade.jpeg" />
       </v-row>
       <v-row class="mx-1 mt-10">
-        <img class="my-image" src="./../assets/static/tuna.jpg" />
+        <img class="my-image" src="./../assets/static/tuna_and_tillie.jpeg" />
+      </v-row>
+      <v-row class="mx-1 mt-10">
+        <img class="my-image" src="./../assets/static/me_and_jade2.jpg" />
+      </v-row>
+      <v-row class="mx-1 mt-10">
+        <img class="my-image" src="./../assets/static/family.jpeg" />
       </v-row>
     </v-col>
   </v-row>

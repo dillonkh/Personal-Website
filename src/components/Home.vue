@@ -24,7 +24,7 @@
                   color="rgb(109, 167, 113)"
                   @click="
                     goToLink(
-                      'https://dillonkharris-personal-website.s3-us-west-2.amazonaws.com/Resume2020.pdf'
+                      'https://dillonkharris-personal-website.s3-us-west-2.amazonaws.com/Resume2021.pdf'
                     )
                   "
                 >
