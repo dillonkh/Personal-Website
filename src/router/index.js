@@ -35,6 +35,11 @@ const routes = [
     component: () => import("./../components/WorkExperience.vue"),
   },
   {
+    path: "/game",
+    name: "Game",
+    component: () => import("./../components/GameHolder.vue"),
+  },
+  {
     path: "*",
     component: () => import("./../components/NotFound.vue"),
   },

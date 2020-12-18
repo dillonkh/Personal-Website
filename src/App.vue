@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <background class="my-background" />
+    <div class="my-background" />
     <v-layout fill-height fluid>
       <v-row class="mt-10" justify="center">
         <v-col style="max-width: 800px; width: 100%;">
