@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-row v-if="this.$vuetify.breakpoint.mdAndUp" class="ma-8">
+    <v-row v-if="this.$vuetify.breakpoint.smAndUp" class="ma-8">
       <v-col class="my-8" cols="8">
         <v-row>
           <v-col>

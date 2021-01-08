@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <div v-if="this.$vuetify.breakpoint.mdAndUp">
+    <div v-if="this.$vuetify.breakpoint.smAndUp">
       <v-row justify="center" align="center" class="mx-auto">
         <v-col>
           <img class="logo" src="./../assets/static/DH-logo-green.png" />
