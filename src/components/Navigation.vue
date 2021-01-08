@@ -19,11 +19,11 @@
     </div>
     <div v-else>
       <v-row>
-        <v-col cols="4" class="ml-2">
+        <v-col cols="3" class="ml-2">
           <img class="logo" src="./../assets/static/DH-logo-green.png" />
         </v-col>
         <v-spacer></v-spacer>
-        <v-col cols="2" align-self="center" class="mr-2">
+        <v-col cols="2" align-self="center" class="mr-1">
           <v-menu offset-y>
             <template v-slot:activator="{ on, attrs }">
               <v-icon v-bind="attrs" v-on="on" large color="green darken-2">
