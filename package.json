@@ -9,6 +9,7 @@
     "deploy": "aws --region us-west-2 --profile personal-website-dev s3 sync ./dist s3://dillonkharris-personal-website --delete"
   },
   "dependencies": {
+    "@mdi/js": "^5.8.55",
     "core-js": "^3.6.5",
     "socket.io": "^3.0.4",
     "socket.io-client": "^3.0.4",
