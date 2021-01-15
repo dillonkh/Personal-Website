@@ -38,7 +38,7 @@
         </v-row>
       </v-col>
       <v-col>
-        <v-row v-if="!$browserDetect.isSafari">
+        <v-row v-if="!$browserDetect.isSafari || !$browserDetect.isIOS">
           <img class="my-image" src="./../assets/static/me.png" />
         </v-row>
         <v-row>
@@ -93,7 +93,7 @@
         </div>
       </v-row>
       <v-row>
-        <v-col v-if="!$browserDetect.isSafari">
+        <v-col v-if="!$browserDetect.isSafari || !$browserDetect.isIOS">
           <img class="my-image" src="./../assets/static/me.png" />
         </v-col>
         <v-col align-self="center">
