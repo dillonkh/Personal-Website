@@ -77,18 +77,29 @@
           </div>
         </v-row>
       </v-col>
-      <v-col v-if="!$browserDetect.isSafari || !$browserDetect.isIOS">
+      <v-col>
         <v-row class="mx-1 mt-10">
-          <img class="my-image" src="./../assets/static/me_and_jade.jpeg" />
+          <v-col>
+            <img class="my-image" src="./../assets/static/me_and_jade.jpeg" />
+          </v-col>
         </v-row>
         <v-row class="mx-1 mt-10">
-          <img class="my-image" src="./../assets/static/tuna_and_tillie.jpeg" />
+          <v-col>
+            <img
+              class="my-image"
+              src="./../assets/static/tuna_and_tillie.jpeg"
+            />
+          </v-col>
         </v-row>
         <v-row class="mx-1 mt-10">
-          <img class="my-image" src="./../assets/static/me_and_jade2.jpg" />
+          <v-col>
+            <img class="my-image" src="./../assets/static/me_and_jade2.jpg" />
+          </v-col>
         </v-row>
         <v-row class="mx-1 mt-10">
-          <img class="my-image" src="./../assets/static/family.jpeg" />
+          <v-col>
+            <img class="my-image" src="./../assets/static/family.jpeg" />
+          </v-col>
         </v-row>
       </v-col>
     </v-row>
@@ -167,18 +178,29 @@
           playing video games.
         </div>
       </v-row>
-      <v-row v-if="!$browserDetect.isSafari || !$browserDetect.isIOS">
+      <v-row>
         <v-row class="mx-1 mt-10">
-          <img class="my-image" src="./../assets/static/me_and_jade.jpeg" />
+          <v-col>
+            <img class="my-image" src="./../assets/static/me_and_jade.jpeg" />
+          </v-col>
         </v-row>
         <v-row class="mx-1 mt-10">
-          <img class="my-image" src="./../assets/static/tuna_and_tillie.jpeg" />
+          <v-col>
+            <img
+              class="my-image"
+              src="./../assets/static/tuna_and_tillie.jpeg"
+            />
+          </v-col>
         </v-row>
         <v-row class="mx-1 mt-10">
-          <img class="my-image" src="./../assets/static/me_and_jade2.jpg" />
+          <v-col>
+            <img class="my-image" src="./../assets/static/me_and_jade2.jpg" />
+          </v-col>
         </v-row>
         <v-row class="mx-1 mt-10 mb-10">
-          <img class="my-image" src="./../assets/static/family.jpeg" />
+          <v-col>
+            <img class="my-image" src="./../assets/static/family.jpeg" />
+          </v-col>
         </v-row>
       </v-row>
     </v-row>
