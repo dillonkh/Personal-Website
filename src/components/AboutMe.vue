@@ -77,7 +77,7 @@
           </div>
         </v-row>
       </v-col>
-      <v-col v-if="!$browserDetect.isSafari">
+      <v-col v-if="!$browserDetect.isSafari || !$browserDetect.isIOS">
         <v-row class="mx-1 mt-10">
           <img class="my-image" src="./../assets/static/me_and_jade.jpeg" />
         </v-row>
@@ -167,7 +167,7 @@
           playing video games.
         </div>
       </v-row>
-      <v-row v-if="!$browserDetect.isSafari">
+      <v-row v-if="!$browserDetect.isSafari || !$browserDetect.isIOS">
         <v-row class="mx-1 mt-10">
           <img class="my-image" src="./../assets/static/me_and_jade.jpeg" />
         </v-row>
